@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IPL Bidding Dashboard</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <!-- Left: Leaderboard -->
+        <div class="leaderboard">
+            <h2>🏆 Leaderboard</h2>
+            <div id="leaderboard-list"></div>
+        </div>
+
+        <!-- Center: Current Player -->
+        <div class="current-player">
+            <div class="player-image-container">
+                <img src="images.jpeg" alt="Player">
+            </div>
+            <h2>Virat Kohli</h2>
+            <p class="role">Batsman</p>
+            <div class="current-bid">Current Bid: ₹8.5 Cr</div>
+            <div class="player-stats">
+                <div class="stat-item">
+                    <span>Runs:</span>
+                    <span>639</span>
+                </div>
+                <div class="stat-item">
+                    <span>Average:</span>
+                    <span>53.25</span>
+                </div>
+                <div class="stat-item">
+                    <span>Strike Rate:</span>
+                    <span>139.8</span>
+                </div>
+                <div class="stat-item">
+                    <span>Matches:</span>
+                    <span>14</span>
+                </div>
+            </div>
+        </div>
+
+        <!-- Right: Team List -->
+        <div class="team-list">
+            <h2>Team Squads</h2>
+            <div id="team-list-container">
+                <!-- Team cards will be added here -->
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
